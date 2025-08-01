@@ -40,6 +40,7 @@ esp_player/
 
 ## 🔌 Wiring Diagram
 <img width="2195" height="1966" alt="mp3_diagram" src="https://github.com/user-attachments/assets/cae684d2-8283-4431-97b4-f80785a6cf20" />
+
 ### Pin Configurations
 **SD Card**
 CS - GPIO 5
