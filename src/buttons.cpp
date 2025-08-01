@@ -18,8 +18,6 @@ bool prevStop = HIGH;
 bool isPlaying = false;
 bool isPaused = true;
 
-
-
 ButtonEvent detectButtonEvent()
 {
   // Read button state
