@@ -85,6 +85,21 @@ esp_player/
 [https://youtube.com/shorts/073RuDuK8ok?feature=share](https://youtube.com/shorts/073RuDuK8ok?feature=share)
 
 ---
+
+## 💬 Notes & Acknowledgements
+
+All planning, system design, and implementation logic were fully developed by me.
+
+However, I received support from Chat4o during development — especially in:
+
+- Recommending minimal required libraries for hardware modules
+- Suggesting reliable initialization sequences for SPI (ST7796), I2S (PCM5102), and SD card
+- Providing debugging tips
+
+All code was written and tested by me, but I referred to ChatGPT for architectural validation and quick technical feedback when needed.
+
+---
+
 ## 🎵 Music Credits
 Music: Jazzy Night by Audio Library Beats Group
 Free Download / Stream: [https://www.audiolibrary.com.co/audio-library-beats/jazzy-night](https://www.audiolibrary.com.co/audio-library-beats/jazzy-night)
