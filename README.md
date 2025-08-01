@@ -90,7 +90,7 @@ esp_player/
 
 All planning, system design, and implementation logic were fully developed by me.
 
-However, I received support from Chat4o during development — especially in:
+However, I received support from GPT4o during development — especially in:
 
 - Recommending minimal required libraries for hardware modules
 - Suggesting reliable initialization sequences for SPI (ST7796), I2S (PCM5102), and SD card
