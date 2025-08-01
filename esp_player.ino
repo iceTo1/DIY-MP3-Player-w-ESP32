@@ -147,47 +147,6 @@ void loop()
   }
 }
 
-/*
-void loop()
-{
-  Buttons();  // 항상 버튼 체크
-
-  if (isPlaying && !isPaused && currentFile)
-  {
-    if (currentFile.available())
-    {
-      bytes_read = currentFile.read((uint8_t*)buffer, sizeof(buffer));
-      if (bytes_read > 0)
-      {
-        i2s_write(I2S_NUM, buffer, bytes_read, &bytes_written, 100); // 100ms timeout
-      }
-    }
-    else
-    {
-      Serial.println("Playback complete");
-      currentFile.close();
-      isPlaying = false;
-    }
-  }
-}
-*/
-
-/*
-void loop() 
-{  
-  static bool isFirst = true;
-
-  if (isFirst)
-  {
-    lcd.fillScreen(NAVY);
-    lcd.drawNowPlaying(currentFile);
-    lcd.drawStringCentered("Playing", 320, 480, LEMON, 4);
-    lcd.drawStringCentered("1: Prev  2: Play/Stop  3: Play/Pause  4: Next", 320, 900, WHITE, 1.9);
-    audioPlay(currentFile);
-    Serial.println("Initial play");
-    isFirst = false;
-  }
-
   Buttons();
 }
 */
