@@ -42,36 +42,37 @@ esp_player/
 <img width="2195" height="1966" alt="mp3_diagram" src="https://github.com/user-attachments/assets/cae684d2-8283-4431-97b4-f80785a6cf20" />
 
 ### Pin Configurations
+
 **SD Card**
-CS - GPIO 5
-SCK - GPIO 18
-MOSI - GPIO 23
-MISO - GPIO 19
-VCC - 5V
-GND - GND
+- CS - GPIO 5
+- SCK - GPIO 18
+- MOSI - GPIO 23
+- MISO - GPIO 19
+- VCC - 5V
+- GND - GND
 
 **LCD (ST7796S)**
-LCD_BL - 3.3V
-LCD_RST - GPIO 14
-LCD_DC - GPIO 27
-LCD_CS - GPIO 4
-SCKL - GPIO 18
-MOSI - GPIO 23
-GND - GND
-VCC - 5V
+- LCD_BL - 3.3V
+- LCD_RST - GPIO 14
+- LCD_DC - GPIO 27
+- LCD_CS - GPIO 4
+- SCKL - GPIO 18
+- MOSI - GPIO 23
+- GND - GND
+- VCC - 5V
 
 **PCM5102A**
-BCK - GPIO 12
-LCK - GPIO 33
-DIN - GPIO 32
-VCC - 5V
-GND - GND
+- BCK - GPIO 12
+- LCK - GPIO 33
+- DIN - GPIO 32
+- VCC - 5V
+- GND - GND
 
 **Buttons**
-Previous Song - 16
-Play/Pause - 17
-Stop - 21
-Next Song - 22
+- Previous Song - 16
+- Play/Pause - 17
+- Stop - 21
+- Next Song - 22
 
 
 ## 📖 How to Use
