@@ -62,9 +62,9 @@ esp_player/
 - VCC - 5V
 
 **PCM5102A**
-- BCK - GPIO 12
+- BCK - GPIO 26
 - LCK - GPIO 33
-- DIN - GPIO 32
+- DIN - GPIO 25
 - VCC - 5V
 - GND - GND
 
@@ -77,9 +77,10 @@ esp_player/
 
 ## 📖 How to Use
 1. Insert `.wav` files into your SD card (16-bit PCM, 44.1kHz).
-2. Connect all components as shown in the diagram.
-3. Flash `src/main.ino` to your ESP32 board.
-4. Use the buttons or touchscreen to control playback.
+   [The SD Card must be in FAT format]
+3. Connect all components as shown in the diagram.
+4. Flash `/esp__player.ino` to your ESP32 board.
+5. Use the buttons or touchscreen to control playback.
 
 ## 📸 Demo
 [https://youtube.com/shorts/073RuDuK8ok?feature=share](https://youtube.com/shorts/073RuDuK8ok?feature=share)
